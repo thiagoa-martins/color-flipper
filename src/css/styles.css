@@ -1,0 +1,5 @@
+:root {
+    --clr-primary-5: hsl(205, 78%, 60%);
+    --clr-primary-1: hsl(205, 86%, 17%);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
