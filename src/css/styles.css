@@ -2,4 +2,64 @@
     --clr-primary-5: hsl(205, 78%, 60%);
     --clr-primary-1: hsl(205, 86%, 17%);
     --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --clr-white: #fff;
+    --fixed-width: 620px;
+    --spacing: 0.25rem;
+    
+}
+
+html, 
+body {
+    font-size: 16px;
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    box-shadow: var(--dark-shadow);
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    max-width: var(--fixed-width);
+    height: 3rem;
+    margin: 0 auto;
+}
+
+.header .logo {
+    font-size: 0.875rem;
+    color: var(--clr-primary-5);
+    font-weight: bold;
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.header .menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.header .menu ul li {
+    margin-right: 1rem;
+}
+
+.header .menu ul li a {
+    text-decoration: none;
+    color: var(--clr-primary-1);
+    letter-spacing: var(--spacing);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.header .menu ul li a:hover {
+    color: var(--clr-primary-5);
 }
