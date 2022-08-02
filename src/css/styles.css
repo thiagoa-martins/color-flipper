@@ -120,3 +120,18 @@ body {
     color: var(--clr-white);
     background-color: var(--clr-black);
 }
+
+@media screen and (max-width: 400px) {
+    .main .container {
+        margin: 0 1rem;
+    }
+
+    .main .title {
+        font-size: 2rem;
+    }
+
+    .main .title .color {
+        display: block;
+        margin-top: 1rem;
+    }
+}
