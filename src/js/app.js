@@ -7,52 +7,52 @@ const colorsSimples = ["green", "red", "black", "yellow", "orange", "pink", "pur
 const colorsHex = [
     {
         colorName: "#4548EB",
-        colorCode: "rgb(69, 72, 235)"
+        colorCode: "#4548EB"
     },
 
     {
         colorName: "#F3F8BD",
-        colorCode: "rgb(243, 248, 189)"
+        colorCode: "#F3F8BD"
     },
 
     {
         colorName: "#FF4C08",
-        colorCode: "rgb(255, 76, 8)"
+        colorCode: "#FF4C08"
     },
 
     {
         colorName: "#6C5DF2",
-        colorCode: "rgb(108, 93, 242)"
+        colorCode: "#6C5DF2"
     },
 
     {
         colorName: "#7E815A",
-        colorCode: "rgb(126, 129, 90)"
+        colorCode: "#7E815A"
     },
 
     {
         colorName: "#FF4C08",
-        colorCode: "rgb(255, 76, 8)"
+        colorCode: "#FF4C08"
     },
 
     {
         colorName: "#5C7564",
-        colorCode: "rgb(92, 117, 100)"
+        colorCode: "#5C7564"
     },
 
     {
         colorName: "#D55895",
-        colorCode: "rgb(213, 88, 149)"
+        colorCode: "#D55895"
     },
 
     {
         colorName: "#C283CB",
-        colorCode: "rgb(194, 131, 203)"
+        colorCode: "#C283CB"
     },
 
     {
         colorName: "#7DB44B",
-        colorCode: "rgb(125, 180, 75)"
+        colorCode: "#7DB44B"
     }
 ];
 
